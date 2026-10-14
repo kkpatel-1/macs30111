@@ -39,9 +39,14 @@ def contributions_by_campaign(contributions):
     rv = {}
     for contribution in contributions:
         campaign = contribution["campaign"]
+<<<<<<< HEAD
         #rv.get(campaign, []).append(contribution)
         rv[campaign] = rv.get(contribution)
         print
+=======
+        print(contribution)
+        #rv.get(campaign, []).append(contribution)
+>>>>>>> beccf26cac4a2059173548c80753d185c7dc3399
     return rv
 
 
