@@ -162,7 +162,6 @@ def count_by_company_by_state_2(complaints):
 
     return counts
 
-
 # Task 8
 '''
 With your team, compare the implementations of count_by_company_by_state
